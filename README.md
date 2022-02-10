@@ -10,7 +10,7 @@
 
 ## ReactGoggl
 
-A Google clone app built using React JS (Context & Hooks), and Tailwind CSS.
+A Google clone app built using React JS (Context & Hooks), Tailwind CSS, and Goole Search API powered by [Rapid API](https://rapidapi.com).
 
 ![Screenshot 2022-02-11 013312](https://user-images.githubusercontent.com/34468449/153463969-aa9b008d-8a35-4e5f-b839-fe16b899c6fc.png)
 
@@ -35,3 +35,7 @@ To Start Server:
 To Visit App:
 
 `localhost:3000/search`
+
+## ReactGoggl
+
+To run this project, you will need to add the following environment variables to your .env file
