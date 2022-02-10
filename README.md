@@ -38,13 +38,28 @@ REACT_APP_API_KEY
 
 https://nixoy-react-goggl.netlify.app/search
 
-# My key learnings from this project
+## My key learnings from this project
 
 #### React Context and useContext() Hook
 
 - The context is used to manage global data, e.g. global state, authentication, theme, services, user settings, and more.
-- Tailwind css
-- react-router-dom
-- react-player
-- react-loader-spinner
-- use-debounce
+
+#### [Tailwind CSS] (https://tailwindcss.com/)
+
+- A utility-first CSS framework for rapid UI development.
+
+#### react-router-dom
+
+- for dynamic routing in a react web app
+
+#### react-player
+
+- A React component for playing a variety of URLs, including file paths, YouTube, Facebook, Twitch, SoundCloud, Streamable, Vimeo, Wistia, Mixcloud, DailyMotion and Kaltura.
+
+#### react-loader-spinner
+
+- provides customizable React SVG spinner component which can be implemented for async await operation before data loads to the view.
+
+#### use-debounce
+
+- this hook allows you to debounce any fast changing value. The debounced value will only reflect the latest value when the useDebounce hook has not been called for the specified time period.
