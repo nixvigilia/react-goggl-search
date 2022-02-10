@@ -12,9 +12,13 @@ export const Search = () => {
   const { setSearchTerm } = useResultContext();
   const [debouncedValue] = useDebounce(text, 300);
 
-  useEffect(() => {
-    if (debouncedValue) setSearchTerm(debouncedValue);
-  }, [debouncedValue]);
+  useEffect(
+    () => {
+      if (debouncedValue) setSearchTerm(debouncedValue);
+    },
+    // eslint-disable-next-line
+    [debouncedValue]
+  );
 
   return (
     <div className="relative sm:ml-48 md:ml-72 sm:-mt-10 mt-3">
